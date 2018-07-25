@@ -366,6 +366,7 @@
     }, 
     "0.4.11": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "ExpExponentCleanup", 
             "ZeroFunctionSelector", 
             "DelegateCallReturnValue", 
@@ -376,6 +377,7 @@
     }, 
     "0.4.12": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "ExpExponentCleanup", 
             "ZeroFunctionSelector", 
             "DelegateCallReturnValue", 
@@ -385,6 +387,7 @@
     }, 
     "0.4.13": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "ExpExponentCleanup", 
             "ZeroFunctionSelector", 
             "DelegateCallReturnValue", 
@@ -394,6 +397,7 @@
     }, 
     "0.4.14": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "ExpExponentCleanup", 
             "ZeroFunctionSelector", 
             "DelegateCallReturnValue"
@@ -402,6 +406,7 @@
     }, 
     "0.4.15": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "ExpExponentCleanup", 
             "ZeroFunctionSelector"
         ], 
@@ -409,6 +414,7 @@
     }, 
     "0.4.16": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "ExpExponentCleanup", 
             "ZeroFunctionSelector"
         ], 
@@ -416,6 +422,7 @@
     }, 
     "0.4.17": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "EventStructWrongData", 
             "ExpExponentCleanup", 
             "ZeroFunctionSelector"
@@ -424,6 +431,7 @@
     }, 
     "0.4.18": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "EventStructWrongData", 
             "ExpExponentCleanup"
         ], 
@@ -431,6 +439,7 @@
     }, 
     "0.4.19": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "EventStructWrongData", 
             "ExpExponentCleanup"
         ], 
@@ -452,6 +461,7 @@
     }, 
     "0.4.20": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "EventStructWrongData", 
             "ExpExponentCleanup"
         ], 
@@ -459,6 +469,7 @@
     }, 
     "0.4.21": {
         "bugs": [
+            "PublicLibFunctionsDoNotReturnNestedArrays", 
             "EventStructWrongData", 
             "ExpExponentCleanup"
         ], 
