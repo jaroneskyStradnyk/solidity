@@ -99,6 +99,7 @@ Address
 -------
 
 ``address``: Holds a 20 byte value (size of an Ethereum address). Address types also have members and serve as a base for all contracts.
+``address payable``: Same as ``address``, but with the additional member ``transfer``.
 
 Operators:
 
@@ -129,7 +130,7 @@ and to send Ether (in units of wei) to an address using the ``transfer`` functio
 
 ::
 
-    address x = 0x123;
+    address payable x = 0x123;
     address myAddress = this;
     if (x.balance < 10 && myAddress.balance >= 10) x.transfer(10);
 
@@ -211,11 +212,13 @@ Contract Types
 
 Every :ref:`contract<contracts>` defines its own type.
 You can implicitly convert contracts to contracts they inherit from,
-and explicitly convert them to and from the ``address`` type.
+and explicitly convert them to and from the ``address`` type, if they have no
+payable fallback functions or from the ``address payable`` type, if they do
+have payable fallback functions.
 
 .. note::
     Starting with version 0.5.0 contracts do not derive from the address type,
-    but can still be explicitly converted to address.
+    but can still be explicitly converted to ``address``, resp. ``address payable``.
 
 If you declare a local variable of contract type (`MyContract c`), you can call
 functions on that contract. Take care to assign it from somewhere that is the
